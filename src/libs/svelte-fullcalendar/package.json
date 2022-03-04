@@ -1,0 +1,44 @@
+{
+  "author": "Yogev Boaron Ben-Har",
+  "bugs": {
+    "url": "https://github.com/YogliB/svelte-fullcalendar/issues"
+  },
+  "description": "A Svelte component wrapper around FullCalendar",
+  "devDependencies": {
+    "@fullcalendar/common": "^5.0.0",
+    "@fullcalendar/core": "^5.0.0",
+    "svelte": "3.46.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./src/Draggable.svelte": "./src/Draggable.svelte",
+    "./src/FullCalendar.svelte": "./src/FullCalendar.svelte"
+  },
+  "homepage": "https://github.com/YogliB/svelte-fullcalendar#readme",
+  "keywords": [
+    "svelte",
+    "fullcalendar",
+    "javascript",
+    "calendar",
+    "scheduler"
+  ],
+  "license": "MIT",
+  "name": "svelte-fullcalendar",
+  "optionalDependencies": {
+    "@fullcalendar/interaction": "^5.0.0"
+  },
+  "peerDependencies": {
+    "@fullcalendar/common": "^5.0.0",
+    "@fullcalendar/core": "^5.0.0",
+    "@fullcalendar/bootstrap": "^5.0.0",
+    "@fullcalendar/daygrid": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogliB/svelte-fullcalendar.git"
+  },
+  "svelte": "index.js",
+  "type": "module",
+  "version": "1.1.2-fix"
+}
