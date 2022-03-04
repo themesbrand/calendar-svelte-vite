@@ -4,5 +4,5 @@ yarn install
 # Now you have to install the svelte-fullcalendar
 npm install --save ./src/libs/svelte-fullcalendar
 
-# to run aap
+# To run aap
 yarn dev
